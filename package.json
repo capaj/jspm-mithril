@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:capaj/jspm-react.git"
+    "url": "git@github.com:capaj/jspm-mithril.git"
   },
   "author": "capajj@gmail.com",
   "bugs": {
-    "url": "https://github.com/capaj/jspm-react/issues"
+    "url": "https://github.com/capaj/jspm-mithril/issues"
   },
-  "homepage": "https://github.com/capaj/jspm-react",
+  "homepage": "https://github.com/capaj/jspm-mithril",
   "jspm": {
     "directories": {
       "baseURL": "public"
