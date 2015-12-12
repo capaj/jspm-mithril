@@ -28,7 +28,7 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.2.1",
+      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.0",
       "mithril": "npm:mithril@^0.2.0"
     },
     "devDependencies": {
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "http-server": "^0.8.5",
-    "chokidar-socket-emitter": "^0.2.0"
+    "chokidar-socket-emitter": "^0.3.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
