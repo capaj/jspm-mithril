@@ -4,9 +4,12 @@
 
 Mithril.js boilerplate with [JSPM](https://github.com/jspm/jspm-cli) and [hot reloading modules](https://github.com/capaj/jspm-hot-reloader)
 
+Compatible with jspm 0.17.0 and up.
+
 ### Quickstart to development
 ```
-git clone git@github.com:capaj/jspm-react.git
+git clone git@github.com:capaj/jspm-mithrill.git
+cd jspm-mithrill
 npm i
 npm start
 ```
