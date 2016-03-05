@@ -4,7 +4,6 @@ SystemJS.config({
     "npm:*.json",
     "github:*/*.json"
   ],
-  globalEvaluationScope: false,
   transpiler: "babel",
   babelOptions: {
     "optional": [
@@ -14,13 +13,13 @@ SystemJS.config({
   },
 
   map: {
-    "babel": "npm:babel-core@5.8.25",
-    "babel-runtime": "npm:babel-runtime@5.8.25",
+    "babel": "npm:babel-core@5.8.35",
+    "babel-runtime": "npm:babel-runtime@5.8.35",
     "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@0.2.1",
-    "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.0",
+    "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.6",
     "core-js": "npm:core-js@1.2.2",
     "fs": "github:jspm/nodelibs-fs@0.2.0-alpha",
-    "mithril": "npm:mithril@0.2.0",
+    "mithril": "npm:mithril@0.2.3",
     "net": "github:jspm/nodelibs-net@0.2.0-alpha",
     "path": "github:jspm/nodelibs-path@0.2.0-alpha",
     "process": "github:jspm/nodelibs-process@0.2.0-alpha",
@@ -32,19 +31,16 @@ SystemJS.config({
     "github:capaj/jspm-hot-reloader@0.2.1": {
       "map": {
         "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
-        "socket.io-client": "github:socketio/socket.io-client@1.3.7",
+        "socket.io-client": "github:socketio/socket.io-client@1.4.5",
         "weakee": "npm:weakee@0.9.1"
       }
     },
-    "github:capaj/systemjs-hot-reloader@0.5.0": {
+    "github:capaj/systemjs-hot-reloader@0.5.6": {
       "map": {
         "debug": "npm:debug@2.2.0",
-        "socket.io-client": "github:socketio/socket.io-client@1.3.7",
-        "weakee": "npm:weakee@0.9.1"
+        "socket.io-client": "github:socketio/socket.io-client@1.4.5",
+        "weakee": "npm:weakee@1.0.0"
       }
-    },
-    "npm:babel-runtime@5.8.25": {
-      "map": {}
     },
     "npm:core-js@1.2.2": {
       "map": {
