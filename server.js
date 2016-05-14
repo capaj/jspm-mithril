@@ -18,4 +18,6 @@ const server = httpServer.createServer({
 })
 require('chokidar-socket-emitter')({app: server.server})
 
-server.listen(9080)
+server.listen(9080, () => {
+  console.log('listening on port 9080')
+})
